@@ -19,6 +19,7 @@
         <nav>
             <ul class="sidebar">
                 <li onclick=hideSidebar()><a><img src="img/cl.png" alt="" width="26"></a></li>
+                <li><a href="#home">Home</a></li>
                <li><a href="#skills">Skills</a></li>
                <li><a href="#education">Education</a></li>
                <li><a href="#interests">Interests</a></li>
@@ -45,7 +46,7 @@
                 <!-- creating a class tex-animation for the span which has a class of text to be animated -->
                 <h3 class="text-animation">I'm a <span class="text"></span></h3>
                 <p>I am a highly motivated and results-oriented student with a strong foundation in web development and design, front-end development, and programming languages like Python, JavaScript, and C++. I am eager to leverage my academic knowledge and practical experience to contribute to a software development team.</p> <br>
-                <p>I am passionate about using technology to create innovative solutions that improve people's lives. I am driven by a desire to learn and grow, and I am always looking for new challenges to tackle. I am a team player and I am always willing to help others. I am confident that I can be a valuable asset to any team.</p> <br>
+                <!-- <p>I am passionate about using technology to create innovative solutions that improve people's lives. I am driven by a desire to learn and grow, and I am always looking for new challenges to tackle. I am a team player and I am always willing to help others. I am confident that I can be a valuable asset to any team.</p> <br> -->
                 <h3 class="text-animation" id="skills">I'm good in <span class="texts"></span></h3>
                 
             <div class="social-icons">
@@ -96,6 +97,136 @@
                
             </div>
         </section>
+        <!-- section Three Interests -->
+        <section class="interests" id="interests">
+            <p>hello</p>
+            <div class="home-content">
+                <h3 class="text-animation">I'm a <span class="text"></span></h3>
+            </div>
+            <h2 class="heading">Interests</h2>
+            <div class="timeline">
+                <div class="container left-container">
+                    <!-- <img src="images/ui-ux.png" alt=""> -->
+                    <div class="text-box">
+                        <!-- company name below -->
+                        <h2>Web Designer</h2> <br>
+                        <!-- <small>2018 2019</small> -->
+                        <p>I am a passionate UI/UX designer who strives to create intuitive and visually appealing digital experiences. I have a keen eye for detail and a strong understanding of user-centered design principles. I am proficient in using design tools such as Figma and Adobe XD to bring designs to life</p>
+                        <span class="left-container-arrow"></span>
+                    </div>
+                </div>
+        
+                <div class="container right-container">
+                    <!-- <img src="images/flipkart.png" alt=""> -->
+                    <div class="text-box">
+                        <!-- company name below -->
+                        <h2>HTML & CSS Maestro </h2> <br>
+                        <!-- <small>2018 2019</small> -->
+                        <p>I am skilled in HTML and CSS, the building blocks of the web. I can craft clean, semantic HTML structures and style them with elegant CSS. I am proficient in responsive design, ensuring that websites look great on all devices.</p>
+                        <span class="right-container-arrow"></span>
+                    </div>
+                </div>
+        
+                <div class="container left-container">
+                    <!-- <img src="images/google.png" alt=""> -->
+                    <div class="text-box">
+                        <!-- company name below -->
+                        <h2>Versatile programmer</h2> <br>
+                        <!-- <small>2018 2019</small> -->
+                        <p>I am skilled in Python and C++, versatile programming languages with a wide range of applications. I have experience in data analysis, web development, and system programming. I am always eager to learn new programming languages and technologies.</p>
+                        <span class="left-container-arrow"></span>
+                    </div>
+                </div>
+        
+                <div class="container right-container">
+                    <!-- <img src="images/tesla.png" alt=""> -->
+                    <div class="text-box">
+                        <!-- company name below -->
+                        <h2>Tech Enthuthiast</h2> <br>
+                        <!-- <small>2018 2019</small> -->
+                        <p>I'm an emerging full-stack developer eager to learn and grow. I'm currently building my skills in front-end development, particularly JavaScript. I'm also exploring the foundations of back-end development, eager to contribute to full-stack projects.</p>
+                        <span class="right-container-arrow"></span>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+        <!-- section four: Projects -->
+        <section class="projects" id="projects">
+            <div class="projects-box">
+                <h2 class="heading">Projects</h2>
+    
+                <div class="wrapper">
+                    <div class="project-item">
+                        <img src="img/p1.jpg" alt="Watanapparel">
+                        <h2>Very first site</h2>
+                        <p>Contributed in it's initial stages for its front-end Development. You can visit the site <a href="https://watanapparel.com/" style="text-decoration: none; color: #00ffee;" target="_blank">here</a> and enjoy your shopping.</p>
+                    </div>
+    
+                    <div class="project-item">
+                        <img src="img/p2.jpg" alt="Watanapparel">
+                        <h2>My second project</h2>
+                        <p>Build this website as a way to practice my skills you can acces it <a href="https://denweb.great-site.net/" target="_blank" style="text-decoration: none; color: #00ffee;">here</a> the website is just a fun way for me to practice my new skills and share them with my friends. You can view its github repo. And suggest any changes.</p>
+                        <div class="social social-icons">
+                            <a href="https://github.com/denis7071"target="_blank"><i class='bx bxl-github' ></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- section 5: Contact section -->
+        <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <form action="https://formsubmit.co/c3f7e8d30f3a1de4470ab7ec57c6db2b" method="POST">
+            <div class="input-group">
+                <div class="input-box">
+
+                    <input type="text" name="name" required placeholder="Full Name">
+                    <input type="email" name="email" required placeholder="Enter Your email">
+                </div>
+                <div class="input-box">
+                    <!-- <input type="number" placeholder="Enter Your Phone number"> -->
+                    <input type="text" name="subject" required placeholder="Subject">
+                </div>
+            <div class="input-group-2">
+                <textarea name="message" id="" 
+                cols="30" rows="10" required placeholder="Your Message"></textarea>
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_next" value="https://denweb.great-site.net">
+                <input type="submit" value="Send Message" class="btn">
+            </div>
+
+            </div>
+        </form>
+    </section>
+
+    <!-- footer section -->
+    <footer class="footer">
+        <div class="social">
+            <a href="https://www.linkedin.com/in/dennis-mwangi-698601278/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://github.com/denis7071"target="_blank"><i class='bx bxl-github' ></i></a>
+            <a href="https://wa.me/254718260130"target="_blank"><i class='bx bxl-whatsapp' ></i></i></a>
+            <a href="https://t.me/denoe001"target="_blank"><i class='bx bxl-telegram'></i></a>
+        </div>
+
+        <ul class="list">
+            <li>
+                <a href="#home">Home</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+        </ul>
+        <p class="copyright">
+            &copy; Dennis Mwangi | All rights reserved.
+        </p>
+    </footer>
+
     </main>
 
 
