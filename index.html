@@ -18,7 +18,7 @@
 <!-- creating a navigation bar menu  -->
         <nav>
             <ul class="sidebar">
-                <li onclick=hideSidebar()><a><img src="cl.png" alt="" width="26"></a></li>
+                <li onclick=hideSidebar()><a><img src="img/cl.png" alt="" width="26"></a></li>
                <li><a href="#skills">Skills</a></li>
                <li><a href="#education">Education</a></li>
                <li><a href="#interests">Interests</a></li>
@@ -38,7 +38,7 @@
 
     <main>
 
-
+<!-- section one: home & about section  -->
         <section class="home" id="home">
             <div class="home-content">
                 <h1>Hi, It's <span>Dennis</span></h1>
@@ -64,11 +64,60 @@
         </div>
             </div>
         </section>
+
+        <!-- section two: education  -->
+        <section class="education" id="education">
+            <h2 class="heading">Education</h2>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                    <div class="timeline-date">2022</div>
+                    <div class="timeline-content">
+                        <p><strong style="color: #00ffee;">Murang'a Boys High School</strong><br><br>2019-2022 <br><br>Mean grade B+</p>
+                    </div>
+                
+            </div>
+    
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                    <div class="timeline-date">2022</div>
+                    <div class="timeline-content">
+                        
+                        <p><strong style="color: #00ffee;">Multimedia University of Kenya</strong><br><br> Bachelor of Science Electrical and Telecommunication Engineering<br><br>2022 - Current <br><br>Expected graduation November 2028</p>
+                    </div>
+                
+            </div>
+    
+            <div class="timeline-item">
+                <div class="timeline-dot"> </div>
+                    <div class="timeline-date">2021</div>
+                    <div class="timeline-content">
+                        <p><strong style="color: #00ffee;">Power Learn Project Academy</strong><br><br>Training in Software Development <br><br> 2024 - Current <br><br> Expected graduation March 2025</p>
+                    </div>
+               
+            </div>
+        </section>
     </main>
 
 
 
     <script>
+        // typed animation text 
+
+        var typed = new Typed('.text', {
+          strings: ['Web Developer', 'Front-end Designer', "Python Developer", "C++ Developer"],
+          typeSpeed: 100,
+          backSpeed: 100,
+          backDelay: 1000,
+          loop: true
+        });
+
+        var typedd = new Typed('.texts', {
+          strings: ['HTML', 'CSS', "Python", "Javascript", "C++","Problem-Solving","Team-work"],
+          typeSpeed: 300,
+          backSpeed: 100,
+          backDelay: 3000,
+          loop: true
+        });
 
 
 
