@@ -53,19 +53,19 @@ Open the index.html file with your favourite browser to view the portfolio in ac
 
 This portfolio includes a Contact Me form that uses Formsubmit to send form submissions to my email address. Follow these steps to set up Formsubmit with your form:
 
-1.### CONNECT YOUR FORM
+1. ### CONNECT YOUR FORM
 
 - Pointing the action-attribute of your form to our URL will enable submissions to be sent to your email address.
 
 <form action="https://formsubmit.co/your@email.com" method="POST" />
 
-2.### ADD NAME ATTRIBUTES
+2. ### ADD NAME ATTRIBUTES
 
 - Include a name attribute in all form elements (i.e. <input>, <select>, and <textarea>) to receive the submission data.
 
 <input type="email" name="email">
 
-3.### SEND AND CONFIRM
+3. ### SEND AND CONFIRM
 
 - Submit the form once. This first-time-use will trigger an email requesting confirmation.
 You can visit their [Documentation](https://formsubmit.co/documentation) to learn more about how to use Formsubmit
