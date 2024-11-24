@@ -1,5 +1,5 @@
 # My-Portfolio
-This is a personal portfolio developed by **Dennis Mwangi** that allows people to know more about Me and my work. You can view  live site visit at  [My-Portfolio](https://denis7071.github.io/#home) .
+This is a personal portfolio developed by **Dennis Mwangi** that allows people to know more about Me and my work. You can view  live site visit at  [My-Portfolio](https://denis7071.github.io/My-Portfolio-Web-Group-21/#home) .
 
 ## Project Overview
 
@@ -12,6 +12,18 @@ The website is build using:
 1. HTML - For it's Structure and forms.
 2. CSS - For the resposiveness and the beautiful look of the website. Giving it a lively feel and look.
 3. Javascript - For some animation texts and functionality of the menu bar used by people with small screen devices. The javascript code is incorporated within the HTML code.
+
+## Features of The [Website](https://denis7071.github.io/My-Portfolio-Web-Group-21/)
+- It has a simple navigation bar for desktop and pc users and a simple navigation menu for mobile device users ensuring great user experience.
+- It has a Resume download button where you anyone interested can download it.
+- It has a contact form where interested vistors can contact me. The email is sent directly to my Email account thanks to FormsSubmit.
+- It also contains social links of various platform where you can get in touch with me.
+
+## Technologies used
+- HTML5 - For the structuring the webcontent.
+- CSS - For designing the website making it appealing and resposnive.
+-Javascript - For making the website mobile version be accesible through the menu bar toogle.
+- Formssubmit - 
 
 
 To view the live site visit [My-Portfolio](https://denis7071.github.io/#home)
