@@ -76,4 +76,4 @@ You can visit their [Documentation](https://formsubmit.co/documentation) to lear
 Feel free to reach out to me via the contact form or at my email:
 Email: denwebservices@gmail.com
 
-To view the live site visit **[My-Portfolio]**(https://denis7071.github.io/)
+To view the live site visit **[My-Portfolio](https://denis7071.github.io/)**
