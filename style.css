@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;600;700&family=Gabarito:wght@400;500;600&family=Nunito:wght@600&family=Poppins:wght@500;600;700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -28,6 +30,8 @@ body{
     overflow-x: hidden;
 }
 
+/* Styling up the header which includes even the navigation bar and the sidebar for small devices */
+
 .header{
     position: fixed;
     top: 0;
@@ -38,6 +42,8 @@ body{
     display: flex;
     justify-content: space-between;
     z-index: 5;
+    margin: auto;
+    height: 60px;
 }
 
 .logo{
@@ -97,6 +103,7 @@ nav a:hover{
     align-items: flex-start;
     justify-content: flex-start;
 }
+
 .sidebar li{
     width: 100%;
 }
@@ -108,18 +115,21 @@ nav a:hover{
     display: none;
     margin-right: -80px;
 }
+/* styling up the overall section for all sections */
 
 section{
     min-height: 100vh;
     padding: 10rem 12% 10rem;
 }
 
+/* styling up the homr section */
+
 .home{
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 15rem;
-
+}
 .home-content{
     display: flex;
     flex-direction: column;
@@ -127,8 +137,12 @@ section{
     text-align: left;
     justify-content: center;
     margin-top: 3rem;
+   position: relative;
+   left: -25px;
 }
-span{
+
+
+.home-content span{
     color: var(--grn-color);
 }
 
@@ -140,6 +154,8 @@ span{
     margin-bottom: 2rem;
     margin-top: 1rem;
     font-size: 3.5rem;
+    position: relative;
+    left: -28px;
 }
 
 .home-content h1{
@@ -147,10 +163,14 @@ span{
     font-weight: 700;
     margin-top: 1.5rem;
     line-height: 1;
+    position: relative;
+    left: -28px;
 }
 .home-content p{
     font-size: 2rem;
-}
+    text-align: left;
+   padding: 0;
+   margin-right: 20px;
 }
 
 .home-img{
@@ -170,6 +190,9 @@ span{
                 0 0 50px var(--grn-color),
                 0 0 100px var(--grn-color);
 }
+
+
+/* styling up all the social icopns for easy access */
 
 .social-icons a{
     display: inline-flex;
@@ -191,6 +214,7 @@ span{
     box-shadow: 0 0 25px var(--grn-color);
     background-color: var(--grn-color);
 }
+/* styling up the button to use */
 
 .btn{
     display: inline-block;
@@ -229,17 +253,21 @@ span{
     background-color: var(--grn-color);
     color: black;
 }
+
+/* styling up the animated text */
 .text-animation span{
     position: relative;
     color: var(--main-color);
 }
 
+/* styling up all  headings in the sections */
 .heading{
     font-size: 8rem;
     text-align: center;
     margin: 5rem 0;
 }
 
+/* styling up the education section */
 .education{
     padding: 100px 15px;
     background-color: var(--second-bg-color);
@@ -256,15 +284,6 @@ span{
     flex-wrap: wrap;
     position: relative;
 }
-
-/* .timeline-items::after{
-    content: "";
-    position: absolute;
-    width: 5px;
-    height: 100%;
-    background-color: var(--main-color);
-    left: calc(50% - 1px);
-} */
 
 .timeline-items::after{
     content: "";
@@ -335,19 +354,11 @@ span{
     font-weight: 300;
     line-height: 22px;
 }
-::-webkit-scrollbar{
-    width: 5px;
-}
-::-webkit-scrollbar-thumb{
-    background-color: var(--grn-color);
-}
-::-webkit-scrollbar-track{
-    background-color: var(--bg-color);
-    width: 50px;
-}
+
+/* styling up the interest section */
 
 .interests{
-    background: var(--bg-color);
+    background: var(--second-bg-color);
     color: black;
     padding: 0;
 }
@@ -475,42 +486,126 @@ span{
     left: -15px;
 }
 
-@media screen and (max-width: 600px) {
-    .timeline{
-        margin: 50px auto;
-    }
-    .timeline::after{
-        left: 31px;
-    }
-    .container{
-        width: 100%;
-        padding-left: 80px;
-        padding-right: 25px;
-    }
-    .text-box{
-        font-size: 13px;
-    }
-    .text-box small{
-        margin: 10px;
-    }
-    .right-container{
-        left: 0;
-    }
-    .left-container img, .right-container img{
-        left: 10px;
-    }
-    .left-container-arrow, .right-container-arrow{
-        border-right: 15px solid var(--main-color);
-        border-left: 0;
-        left: -15px;
-    }
-    
+/* Styling up the Skills section */
+.bars{
+    text-transform: uppercase;
 }
 
-/* finalizng */
+.mySkill{
+    background: var(--bg-color);
+}
 
+.box-heading{
+    color: var(--text-color);
+}
+.skill-name{
+    color: var(--text-color);
+}
+
+
+.heading{
+    font-size: 8rem;
+    text-align: center;
+    margin: 5rem 0;
+    color: aliceblue;
+}
+.headings {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.headings h2 {
+    font-size: 30px;
+}
+
+.headings span {
+    font-size: 0.941rem;
+    color: rgb(2, 166, 70);
+    font-weight: 600;
+}
+
+.content {
+    /* border: 5px solid red; */
+    box-shadow: 0 0 25px var(--main-color),
+                0 0 50px var(--main-color),
+                0 0 100px var(--main-color);
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    animation: shake 0.7s infinite;
+    transition: all 2s ease-in-out;
+}
+.content:hover{
+    box-shadow: 0 0 25px var(--grn-color),
+                0 0 50px var(--grn-color),
+                0 0 100px var(--grn-color);
+}
+
+@keyframes shake{
+   0%{transform: rotate(0deg);}
+   80%{transform: rotate(0deg);}
+   85%{transform: rotate(5deg);}
+   95%{transform: rotate(-5deg);}
+   100%{transform: rotate(0deg);}
+}
+
+.content .left {
+    width: 45%;
+    height: auto;
+    /* height: 500px; */
+    /* border: 1px solid red; */
+    padding: 0 20px;
+}
+
+.content .right {
+    width: 45%;
+    height: auto;
+    /* height: 500px; */
+    /* border: 1px solid red; */
+    padding: 0 20px;
+}
+
+/* bars code here */
+.skill {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 10px;
+    padding: 10px 0;
+}
+
+.skill-name {
+    width: 100%; 
+}
+
+.skill-bar {
+    width: 100%;
+    height: 15px;
+    background-color: var(--main-color);
+    border-radius: 5px;
+    margin-top: 5px; 
+    /* changes */
+    position: relative; 
+}
+
+.skill-level {
+    height: 100%;
+    background-color: var(--grn-color); 
+    /* background-color: rgb(2, 166, 70); */
+    border-radius: 5px;
+    /* change */
+    text-align: center;
+    color: #fff;
+    line-height: 15px; /* Center the text vertically */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+/* styling up the projects section */
 .projects{
-    background: var(--second-bg-color);
+    background: var(--bg-color);
 }
 .projects-box{
     background-size: cover;
@@ -564,8 +659,9 @@ span{
     font-size: 1.5rem;
 }
 
+/* Styling up the Contact form */
 .contact{
-    background-color: var(--bg-color);
+    background-color: var(--second-bg-color);
 }
 .contact h2{
     margin-bottom: 3rem;
@@ -599,159 +695,14 @@ span{
 .contact form .btn{
     margin-top: 2rem;
 }
+
+/* sty;ing up the footer section to be responsive */
 .footer{
     position: relative;
     bottom: 0;
     width: 100%;
     padding: 40px 0;
-    background-color: var(--second-bg-color);
-}
-.footer .social{
-    text-align: center;
-    padding-bottom: 25px;
-    color: var(--main-color);
-}
-.footer .social a{
-    font-size: 25px;
-    color: var(--main-color);
-    border: 2px solid var(--grn-color);
-    width: 42px;
-    height: 42px;
-    line-height: 42px;
-    display: inline-block;
-    text-align: center;
-    border-radius: 50%;
-    margin: 0 10px;
-    transition: 0.3s ease-in-out;
-}
-.footer .social a:hover{
-    transform: scale(1.2)translateY(-10px);
-    background-color: var(--grn-color);
-    color: #080808;
-    box-shadow: 0 0 25px var(--grn-color);
-}
-.footer ul{
-    margin-top: 0;
-    padding: 0;
-    font-size: 18px;
-    line-height: 1.6;
-    margin-bottom: 0;
-    text-align: center;
-}
-.footer ul li a{
-    color: #f5f5f4;
-    border-bottom: 3px solid transparent;
-    transition: 0.3s ease-in-out;
-}
-.footer ul li a:hover{
-    border-bottom: 3px solid var(--grn-color);
-}
-.footer ul li{
-    display: inline-block;
-    padding: 0 15px;
-}
-.footer .copyright{
-    margin-top: 50px;
-    text-align: center;
-    font-size: 16px;color: #f5f5f4;
-}
-
-.tesimonials{
-    background: var(--second-bg-color);
-}
-.testimonials-box{
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-.testimonials .heading{
-    margin-bottom: 5rem;
-}
-.testimonials-box img{
-    width: 25rem;
-    border: 3px solid var(--main-color);
-    box-shadow: 0 0 50px var(--grn-color);
-}
-
-.wrapper{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 20rem;
-}
-.testimonial-item{
-    min-height: 750px;
-    max-width: 450px;
-    background: rgba(0, 0, 0, 0.7);
-    border: 3px solid rgba(238, 238, 238, 0.2);
-    border-radius: 2rem;
-    margin: 0 2rem;
-    padding: 30px 60px;
-    cursor: pointer;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    gap: 1.5rem;
-    color: aliceblue;
-    transition: 0.4s ease-in-out;
-
-}
-.testimonial-item:hover{
-    border: 3px solid var(--main-color);
-    transform: translateY(-10px)scale(1.03);
-    box-shadow: 0 0 50px var(--main-color);
-}
-.testimonial-item h2{
-    font-size: 2.8rem;
-}
-.testimonial-item p{
-    font-size: 1.5rem;
-}
-
-.contact{
     background-color: var(--bg-color);
-}
-.contact h2{
-    margin-bottom: 3rem;
-    color: aliceblue;
-}
-.contact form{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 3rem;
-    margin: 5rem auto;
-    text-align: center;
-}
-.contact form .input-box{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-.contact form .input-box input,
-.contact form textarea{
-    width: 100%;
-    padding: 2.5rem;
-    font-size: 1.8rem;
-    color: var(--text-color);
-    background: var(--second-bg-color);
-    border-radius: 2rem;
-    border: 2px solid var(--main-color);
-    margin: 1.5rem 0;
-    resize: none;
-}
-.contact form .btn{
-    margin-top: 2rem;
-}
-.footer{
-    position: relative;
-    bottom: 0;
-    width: 100%;
-    padding: 40px 0;
-    background-color: var(--second-bg-color);
 }
 .footer .social{
     text-align: center;
@@ -804,6 +755,70 @@ span{
     font-size: 16px;color: #f5f5f4;
 }
 
+/* styling up the scroll bar to blend in with our style */
+::-webkit-scrollbar{
+    width: 5px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: var(--grn-color);
+}
+::-webkit-scrollbar-track{
+    background-color: var(--bg-color);
+    width: 50px;
+}
+
+/* making the education section responsive */
+@media screen and (max-width: 600px) {
+    .timeline{
+        margin: 50px auto;
+    }
+    .timeline::after{
+        left: 31px;
+    }
+    .container{
+        width: 100%;
+        padding-left: 80px;
+        padding-right: 25px;
+    }
+    .text-box{
+        font-size: 13px;
+    }
+    .text-box small{
+        margin: 10px;
+    }
+    .right-container{
+        left: 0;
+    }
+    .left-container img, .right-container img{
+        left: 10px;
+    }
+    .left-container-arrow, .right-container-arrow{
+        border-right: 15px solid var(--main-color);
+        border-left: 0;
+        left: -15px;
+    }
+    
+}
+
+/* making the skills section responsive */
+@media screen and (max-width: 768px) {
+    .content {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .content .left{
+        width: 100%;
+        padding: 0;
+    }
+
+    .content .right{
+        width: 100%;
+        padding: 0;
+    }
+  }
+
+/* Making the overall site to be responsive */
 @media(max-width:1285px){
     html{
         font-size: 55%;
@@ -926,18 +941,6 @@ span{
     }
 }
 
-@media (min-width: 475px){
-
-}
-
-@media (min-width: 600px){
-
-}
-
-@media (min-width: 768px){
-    
-}
-
 @media (min-width: 1024px){
     .sidebar a{
         font-size: 300rem;
@@ -954,12 +957,4 @@ span{
     }
 }
 
-
-
-@media (min-width: 1536px){
-
-   
-
-}
 /* fixing responsiveness of interests section  */
-
