@@ -73,7 +73,7 @@ You can visit their [Documentation](https://formsubmit.co/documentation) to lear
 
 ## Contact
 
-Feel free to reach out to me via the contact form or at my email:
+Feel free to reach out to me via the contact form or at my
 Email: denwebservices@gmail.com
 
 To view the live site visit **[My-Portfolio](https://denis7071.github.io/)**
