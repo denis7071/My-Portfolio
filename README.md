@@ -24,7 +24,7 @@ The website is build using:
 - CSS - For designing the website making it appealing and resposnive.
 -Javascript - For making the website mobile version be accesible through the menu bar toogle.
 - Formsubmit - For handling contact form submissions. (No PHP, Javascript or any backend code required.
-). You cna check out their documentation [here](https://formsubmit.co/), It's very easy to get started and it's free.
+). You can check out their documentation [here](https://formsubmit.co/documentation), It's very easy to get started and it's free.
 - Github pages - For hosting the website.
 
 ## Getting Started
@@ -56,6 +56,7 @@ This portfolio includes a Contact Me form that uses Formsubmit to send form subm
 
 3. ### SEND AND CONFIRM
     - Submit the form once. This first-time-use will trigger an email requesting confirmation.
+You can visit their [Documentation](https://formsubmit.co/documentation) to learn more about how to use Formsubmit
 
 
 Contact
