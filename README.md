@@ -1,5 +1,5 @@
 # My-Portfolio
-This is a personal portfolio developed by **Dennis Mwangi** that allows people to know more about Me and my work. You can view  live site visit at  [My-Portfolio](https://denis7071.github.io/My-Portfolio-Web-Group-21/#home) .
+This is a personal portfolio developed by **Dennis Mwangi** that allows people to know more about Me and my work. You can view  live site visit at  [My-Portfolio](https://denis7071.github.io/My-Portfolio-Web-Group-21/)
 
 ## Project Overview
 
@@ -76,4 +76,4 @@ You can visit their [Documentation](https://formsubmit.co/documentation) to lear
 Feel free to reach out to me via the contact form or at my
 Email: denwebservices@gmail.com
 
-To view the live site visit **[My-Portfolio](https://denis7071.github.io/)**
+To view the live site visit **[My-Portfolio](https://denis7071.github.io/My-Portfolio-Web-Group-21/)**
