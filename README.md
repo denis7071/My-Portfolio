@@ -57,7 +57,7 @@ This portfolio includes a Contact Me form that uses Formsubmit to send form subm
 
 - Pointing the action-attribute of your form to our URL will enable submissions to be sent to your email address.
 
-![COPY ACTION ATTRIBUTE](example of a contact form.png)
+<img width="544" alt="example of a contact form" src="https://github.com/user-attachments/assets/69074332-acdc-4499-a9cd-60e26204f856">
 
 2. ### ADD NAME ATTRIBUTES
 
