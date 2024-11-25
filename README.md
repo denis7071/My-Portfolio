@@ -62,9 +62,7 @@ This portfolio includes a Contact Me form that uses Formsubmit to send form subm
 2. ### ADD NAME ATTRIBUTES
 
 - Include a name attribute in all form elements (i.e. <input>, <select>, and <textarea>) to receive the submission data.
-'''HTML
-<input type="email" name="email">
-'''
+'<input type="email" name="email">'
 
 2. ### Send and Confirm
 
