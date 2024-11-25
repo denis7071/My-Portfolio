@@ -123,7 +123,7 @@ section{
     padding: 10rem 12% 10rem;
 }
 
-/* styling up the homr section */
+/* styling up the home section */
 
 .home{
     display: flex;
@@ -193,7 +193,7 @@ section{
 }
 
 
-/* styling up all the social icopns for easy access */
+/* styling up all the social icons for easy access */
 
 .social-icons a{
     display: inline-flex;
@@ -697,7 +697,7 @@ section{
     margin-top: 2rem;
 }
 
-/* sty;ing up the footer section to be responsive */
+/* styling up the footer section to be responsive */
 .footer{
     position: relative;
     bottom: 0;
