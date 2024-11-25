@@ -61,7 +61,7 @@ This portfolio includes a Contact Me form that uses Formsubmit to send form subm
 
 2. ### ADD NAME ATTRIBUTES
 
-- Include a name attribute in all form elements (i.e. <input>, <select>, and <textarea>) to receive the submission data.
+- Pointing the action-attribute of your form to our URL will enable submissions to be sent to your email address.
 
-<img width="698" alt="nameattribute" src="https://github.com/user-attachments/assets/6bce61e2-2e7f-4877-8e5a-66b36a74dd50">
+<img width="544" alt="example of a contact form" src="https://github.com/user-attachments/assets/69074332-acdc-4499-a9cd-60e26204f856">
 
