@@ -69,3 +69,7 @@ This portfolio includes a Contact Me form that uses Formsubmit to send form subm
 
 - Submit the form once. This first time use will trigger an email requesting confirmation. Once you have confirmed people can start sending you messages from your website and you recieve them in your enail.
 
+  ## CONTACT ME
+Feel free to reach out to me via the contact form or at my
+Email: denwebservices@gmail.com
+
