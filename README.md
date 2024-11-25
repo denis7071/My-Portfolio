@@ -42,7 +42,7 @@ git clone https://github.com/denis7071/My-Portfolio-Web-Group-21.git
 
 2. ### Open the project folder
 
-Navigate to the project directory:
+Navigate to the project directory:  
 cd <>
 
 3. ### Open index.html
