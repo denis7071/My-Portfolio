@@ -62,12 +62,13 @@ This portfolio includes a Contact Me form that uses Formsubmit to send form subm
 2. ### ADD NAME ATTRIBUTES
 
 - Include a name attribute in all form elements (i.e. <input>, <select>, and <textarea>) to receive the submission data.
-'<input type="email" name="email">'
+
+<img width="698" alt="nameattribute" src="https://github.com/user-attachments/assets/6bce61e2-2e7f-4877-8e5a-66b36a74dd50">
 
 2. ### Send and Confirm
 
 - Submit the form once. This first-time-use will trigger an email requesting confirmation.
-You can visit their [Documentation](https://formsubmit.co/documentation) to learn more about how to use Formsubmit
+- You can visit their [Documentation](https://formsubmit.co/documentation) to learn more about how to use Formsubmit
 
 
 ## Contact
