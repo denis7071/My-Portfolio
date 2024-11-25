@@ -65,7 +65,7 @@ This portfolio includes a Contact Me form that uses Formsubmit to send form subm
 
 <img width="698" alt="nameattribute" src="https://github.com/user-attachments/assets/6bce61e2-2e7f-4877-8e5a-66b36a74dd50">
 
-3 ### Send and Confirm
+3. ### SEND AND CONFIRM
 
 - Submit the form once. This first-time-use will trigger an email requesting confirmation.  
 You can visit their [Documentation](https://formsubmit.co/documentation) to learn more about how to use Formsubmit.
