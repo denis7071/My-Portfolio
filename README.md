@@ -68,7 +68,7 @@ This portfolio includes a Contact Me form that uses Formsubmit to send form subm
 2. ### Send and Confirm
 
 - Submit the form once. This first-time-use will trigger an email requesting confirmation.
-- You can visit their [Documentation](https://formsubmit.co/documentation) to learn more about how to use Formsubmit.
+You can visit their [Documentation](https://formsubmit.co/documentation) to learn more about how to use Formsubmit.
   
 ## Contact
 
