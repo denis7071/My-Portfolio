@@ -61,18 +61,15 @@ This portfolio includes a Contact Me form that uses Formsubmit to send form subm
 
 2. ### ADD NAME ATTRIBUTES
 
-- Include a name attribute in all form elements (i.e. <input>, <select>, and <textarea>) to receive the submission data.
+- Include a name attribute in all form elements to receive the submission data.
 
-<img width="698" alt="nameattribute" src="https://github.com/user-attachments/assets/6bce61e2-2e7f-4877-8e5a-66b36a74dd50">
+<img width="698" alt="nameattribute" src="https://github.com/user-attachments/assets/72b321f8-e689-4026-98b1-0cf867ef768f">
 
 3. ### SEND AND CONFIRM
 
-- Submit the form once. This first-time-use will trigger an email requesting confirmation.  
-You can visit their [Documentation](https://formsubmit.co/documentation) to learn more about how to use Formsubmit.
-  
-## Contact
+- Submit the form once. This first time use will trigger an email requesting confirmation. Once you have confirmed people can start sending you messages from your website and you recieve them in your enail.
 
-Feel free to reach out to me via the contact form or at my
+  ## CONTACT ME
+Feel free to reach out to me via the contact form or at my  
 Email: denwebservices@gmail.com
 
-To view the live site visit **[My-Portfolio](https://denis7071.github.io/My-Portfolio-Web-Group-21/)**
